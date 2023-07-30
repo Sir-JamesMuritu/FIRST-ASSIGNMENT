@@ -1,0 +1,24 @@
+body {
+    background-color: lightblue;
+  }
+header{
+
+}  
+h1 {
+    color: white;
+    text-align: center;
+  }
+  
+p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+li{
+    display: inline;
+    padding: 10px;
+  }
+.name{
+    font-size: 16px;
+    text-decoration:;
+    text-align: center;
+  }
