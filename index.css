@@ -2,10 +2,14 @@ body {
     background-color: lightblue;
   }
 header{
-
-}  
-h1 {
+    border: 4px solid rgb(190, 96, 190);
+    border-radius: 20px;
+    background-color: rgb(224, 176, 16);
+}
+h1,h2,h3 {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px 4px rgb(121, 8, 150),-3px -2px 4px rgb(11, 145, 150);
     text-align: center;
   }
   
@@ -19,6 +23,31 @@ li{
   }
 .name{
     font-size: 16px;
-    text-decoration:;
     text-align: center;
   }
+button{
+    background-color: aqua;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold; 
+    border-radius : 25px; 
+    box-shadow: 0 8px 16px 0px rgb(204, 72, 221);
+}
+.button:hover{
+    background-color: rgb(11, 158, 60);
+    box-shadow: 0 12px 16px 0 rgb(224, 9, 9);
+    opacity: 1;
+}
+.button1{
+    margin-left: auto;
+}
+a{
+  padding: 10px;
+}
+.welcome{
+    text-align: center;
+}
+footer{
+  font-size: 18px;
+  background-color: rgb(224, 176, 16);
+}
