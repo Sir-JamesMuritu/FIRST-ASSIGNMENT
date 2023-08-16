@@ -1,11 +1,16 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(18, 175, 18);
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 header{
     border: 4px solid rgb(190, 96, 190);
     border-radius: 20px;
     background-color: rgb(224, 176, 16);
 }
+
 h1,h2,h3 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,9 +46,6 @@ button{
 .button1{
     margin-left: auto;
 }
-a{
-  padding: 10px;
-}
 .welcome{
     text-align: center;
 }
@@ -54,4 +56,42 @@ footer{
 img{
   text-align: center;
   padding: none;
+}
+
+
+.main-nav {
+  background-color: #333; 
+  text-align: center;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: space-around; 
+}
+
+.main-nav li {
+  padding: 10px 20px;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .main-nav {
+      text-align: center; 
+  }
+
+  .main-nav ul {
+      flex-direction: column; 
+  }
+
+  .main-nav li {
+      padding: 10px 0;
+  }
 }
